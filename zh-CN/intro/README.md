@@ -8,7 +8,7 @@ name: 开始
 
 * [游玩](/docs/gameplay)
 * [编辑器](/docs/editor)
-* [社区规则](/docs/rules)
+* [游戏准则](/docs/rules)
 * [皮肤](/docs/skins)
 * [多人游戏](/docs/multiplayer)
 * [Ranking 流程及要求](/docs/ranking)
