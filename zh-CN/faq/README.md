@@ -4,130 +4,130 @@ name: FAQ
 
 # FAQ
 
-Here you can find answers to some of the most frequently asked questions. If you can't find your question here, feel free to ask for more help on the [Official Quaver Discord Server](https://discord.gg/pDbHYag).
+这里解答了一些经常被问到的问题。如果这些都没有解决您的问题，欢迎来到[Quaver官方Discord](https://discord.gg/pDbHYag)进行讨论解惑。
 
-## General
+## 一般问题
 
-### What is Quaver?
+### Quaver是什么？
 
-Quaver is a community-driven and open source competitive rhythm game. It is inspired by a variety of classic vertical scrolling rhythm games and plans to expand on them by being focused on real-time competitive play.
+Quaver是一个基于社区的开源竞技性音乐游戏，受到了各种经典的下落式音游的启发，并且计划在将来将其在实时竞技方面拓展。
 
-### How is Quaver different from other games?
+### Quaver与其他游戏有什么不同？
 
-The game is fully open-source, which allows anyone to help and improve the game. Furthermore, we are aiming to provide a new VSRG experience by bringing competitive concepts, such as competitive matchmaking.
+Quaver是完全开源的，任何人都可以帮助改进这个游戏。我们希望能通过引入竞技这一概念（如竞技性比赛）提供一个全新的下落式音游体验。
 
-### How far in development is Quaver?
+### Quaver目前开发进度如何？
 
-Quaver is in Early Access, which means the core features have been finished and everyone can freely play the game online. During this phase, the game will receive frequent updates, such as bug fixes and additions of new features.
+Quaver目前处于早期测试阶段（Early Access）。这意味着其核心功能已经完成了，所有人都可以自由地在线游玩。在这个阶段Quaver将接受频繁的更新，如bug修复与新特性增加。
 
-### What platforms is Quaver released on?
+### Quaver在哪些平台上发行？
 
-Quaver is released on Windows, Mac and Linux.
+Windows、Mac以及Linux。
 
-## Gameplay
+## 游玩方式
 
-### What game modes does Quaver support?
+### Quaver有哪些模式？
 
-Quaver currently supports 4 keys (4k) and 7 keys (7k). 7k maps with additional scratch lane (7k+1) are also supported, while scores on them remain unranked.
+Quaver目前支持4键（4K）及7键（7K）模式。虽然支持7K+1（7键加一皿），但是在这个模式下得到的分数将一直为unranked状态。
 
-### Where can I get more maps?
+### 谱面在哪里下载？
 
-You can download more maps using the in-game downloader or from the [Quaver website](https://quavergame.com/maps).
+您可以用游戏内置下载器或在[Quaver网站](https://quavergame.com/maps)上下载。
 
-### Can I import maps from other games?
+### 我能导入其他游戏的谱面吗？
 
-Yes, Quaver currently supports .osz, .sm and .mcz files. To import them, drag the files into the game window.
+可以。Quaver目前支持.osz、.sm以及.mcz格式的谱面导入。将谱面文件拖入游戏窗口即可导入。
 
-### I have a lot of maps in an external game, can I import them all at once?
+### 我在另一个音游有很多谱面，我能不能一次性将它们全部导入？
 
-It is possible to import all of your maps from other games at once. In Quaver, navigate to Options > Miscellaneous, enable "Load Songs From Other Installed Games", and click "Detect Songs From Other Installed Games."
+可以。在Quaver内找到Options > Miscellaneous，将“Load Songs From Other Installed Games”选项打开，然后点击 ”Detect Songs From Other Installed Games.“
 
-### Can I import my skin from another game?
+### 我能导入别的游戏的皮肤吗？
 
-The game doesn't support skin conversions out of the box, however you can download a .osk skin converter [here](https://rhythmgamers.net/QBC/) along with a [tutorial](https://www.youtube.com/watch?v=pWeLbx48NVI).
+这个游戏本身并不支持皮肤转换，但是您可以在[这里](https://rhythmgamers.net/QBC/)下载一个.osk皮肤转换器。这里是[使用教程](https://www.youtube.com/watch?v=pWeLbx48NVI)。
 
-### I found a bug, where can I report it?
+### 我找到了一个bug，我能在哪里汇报？
 
-Any bug reports should be posted on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Feel free to post anything you find, but please check if the issue has already been reported to avoid duplication.
+您应该在[GitHub issues](https://github.com/Quaver/Quaver/issues)上提交bug汇报。 您可以在上面自由发布任何您找的问题，但是请务必检查您汇报的问题是否已经有人汇报过了，以免造成重复汇报。
 
-### I have a feature request, where can I post it?
+### 我有个新特性的想法，我能在哪里提供建议？
 
-Similar to bug reports, feature requests belong on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
+一样在[GitHub issues](https://github.com/Quaver/Quaver/issues)内即可。只需要在创建issue时选择“Feature Request”即可。
 
-### Can I change my username?
+### 我能更改我的用户名吗？
 
-Changing your username is a donator-only feature. If you are a donator, you can change username once every 30 days.
+更改用户名是捐助者特供的功能。如果你是捐助者，您可以每三十天更改一次用户名。
 
-### How do I reduce the hitsound audio latency on Linux?
+### 我如何在Linux下降低打击音效延迟？
 
-The audio latency should work well out of the box. It's still possible to tweak the variables if unusual circumstances arise.
+一般情况下音频延迟应该不会出问题，但在一些不常见的情况下仍然可以进行微调。
 
-If you experience the audio latency increasing over play-time, open `/etc/pulse/default.pa`, find a line that says:
+如果您在游玩过程中感受到了音频延迟，打开`/etc/pulse/default.pa`，找到这样一行：
 
 ```
 load-module module-udev-detect
 ```
 
-and change it to:
+将它改成：
 
 ```
 load-module module-udev-detect fixed_latency_range=yes
 ```
 
-Then reboot the system. Note that this may cause severe audio glitches in certain applications (opening Discord in Firefox currently causes this, although the responsible component has already had a fix deployed).
+然后重启系统。请注意这可能在一些特定应用有严重的音频卡顿现象（如在Firefox打开Discord，尽管其对应的组件以及有了一个修复）。
 
-You can also adjust the latency Quaver requests from the system. In `quaver.cfg`, find the following settings:
+你还可以调整Quaver对系统要求的延迟。在`quaver.cfg`中找到这样一行：
 
 ```
 DevicePeriod = 2
 DeviceBufferLengthMultiplier = 4
 ```
 
-These control the period (2 ms by default, how often the system polls Quaver for new audio) and the buffer length (4 by default, how large the audio buffer is, as a multiple of the period). Decreasing period will decrease the audio latency while increasing the CPU load, and decreasing the buffer length multiplier will decrease the audio latency while potentially introducing audio "crackling" and other artifacts. Increasing these values will lead to more latency while decreasing the CPU load and audio glitch probability respectively.
+以上为钟频率（系统对Quaver索取音频的频率，默认2毫秒）和缓冲长度（音频缓存大小，为钟频率的倍数，默认4）。将钟频率降低会减少音频延迟并增加CPU负担；减少缓冲长度可能会导致音频破裂等效果。将以上两项增加会增加音频延迟并减少CPU负担及音频卡顿的可能性。
 
-### How do I use the Wayland VSync?
+### 我应该怎么用Wayland VSync？
 
-To use Wayland VSync, you need to be running Linux with a Wayland compositor, such as present in the newer versions of GNOME and KDE (make sure you're not using the "Xorg" mode), or a standalone one, such as Weston or sway.
+首先需要一个带有Wayland Compositor的Linux系统，如较新的GNONE或KDE版本（请不要用Xorg模式），或用Western或Sway这类独立版本。
 
-Turn on the "Prefer Wayland" option in Video/Linux and restart Quaver. Now turn on Wayland VSync. You can ensure that it works using the FPS counter. Your FPS should become equal to your monitor refresh rate, while UPS should become higher.
+在Video/Linux下打开"Prefer Wayland"选项然后重启Quaver，然后将Wayland VSync打开。 您可以用FPS计数器确认它确实在运行。现在您的FPS应该等于您显示器的刷新频率，且UPS应该升高。
 
-For the lowest latency (below 1 frame) when running sway, set up `max_render_time` on the output and on the Quaver window. See `man 5 sway` for instructions.
+如果想要在Sway上调成最低延迟，在输出及Quaver窗口设置`max_render_time`。使用`man 5 sway`查看具体说明。
 
-## Interface
+## 界面
 
-### How do song select search filters work?
+### 怎么使用谱面筛选？
 
-We currently have following search filters:
+目前有以下这些谱面筛选参数：
 
-| Filter       | Short flag | Long flag   | Argument                                                    |
+| 筛选参数       | 短标签     | 长标签       | 参数                                                    |
 | ------------ | ---------- | ----------- | ----------------------------------------------------------- |
-| BPM          | b          | bpm         | number                                                      |
-| Difficulty   | d          | difficulty  | number                                                      |
-| Game         | g          | game        | quaver/q, osu/o, stepmania/sm/s/etterna/e                   |
-| Keys         | k          | keys        | number                                                      |
-| Length       | l          | length      | number in seconds                                           |
-| LNs          | ln         | lns         | either an absolute number (452) or a whole percentage (57%) |
-| NPS          | n          | nps         | number                                                      |
-| Status       | s          | status      | ranked/r, notsubmitted/n, unranked/u, (dan/d)               |
-| Times Played | t          | timesplayed | number                                                      |
+| BPM          | b          | bpm         | 数字                                                      |
+| 难度   | d          | difficulty  | 数字                                                     |
+| 来源         | g          | game        | quaver/q, osu/o, stepmania/sm/s/etterna/e                   |
+| 键数         | k          | keys        | 数字                                                      |
+| 长度       | l          | length      | 秒数                                           |
+| 长条（LN）数          | ln         | lns         | 数量(452)或占比(57%) |
+| 键/秒       | n          | nps         | 数字                                                      |
+| 状态       | s          | status      | ranked/r, notsubmitted/n, unranked/u, (dan/d)               |
+| 游玩次数| t          | timesplayed | 数字                                                      |
 
-All filters can use the `=` (equals) and `!=` (not equals) operator, number comparisons can additionally use `>= > <= <`.
+所有筛选器可以使用`=` (等于)、`!=` (不等于)操作符， 对于以数字为参数的筛选器可以额外使用`>= > <= <`操作符。
 
-You use a filter by typing a flag, an operator and an argument into the search bar, all without spaces. An example would be `difficulty>30`. Any string from the short to the long flags will be matched, `diff>30` would be a valid filter.
+筛选器输入方式为标签+操作符+参数，如`difficulty>30`。仅输入长标签开头一部分也可以接受，如`diff>30`。
 
-If no flag or operator is given, it will be treated as a regular keyword and display all mapsets that contain that keyword in the metadata (artist, title, mapper, tags).
+如果只没有标签与操作符，仅提供参数，将筛选artist, title, mapper, tags栏内任意包含此参数的谱面。
 
-All conditions in the search have to be met for a mapset to be shown (AND). There is no option for OR gates yet.
+只会返回符合全部筛选器要求的谱面(筛选器全与门)。目前没有对“或者”（筛选器或操作）的支持。
 
-## Troubleshooting
+## 错误排查
 
-### The game doesn’t launch
+### 我打不开游戏
 
-Make sure Steam is running, as Steam is required in order to run Quaver.
+Quaver依赖Steam运行，所以请确保Steam当前正在运行。
 
-#### Linux, offline or local build
+#### Linux、离线或本地构建
 
-Running an offline, or a published stand-alone build (e.g. from `dotnet publish -c Release -r linux-x64`) needs to be done through the Steam runtime. Run this command from the Quaver repository folder:
+离线或发布的独立构建（如用`dotnet publish -c Release -r linux-x64`构建的版本）必须在Steam上才能运行。在Quaver仓库目录下运行以下命令：
 
 ```shell
 ~/.steam/bin/steam-runtime/run.sh Quaver/bin/Release/netcoreapp2.1/linux-x64/publish/Quaver
