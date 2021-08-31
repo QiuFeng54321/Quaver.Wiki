@@ -1,5 +1,5 @@
 ---
-name: Ranking Criteria
+name: Ranking标准
 ---
 
 
