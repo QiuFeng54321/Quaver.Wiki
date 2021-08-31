@@ -1,8 +1,8 @@
 ---
-name: Rules
+name: 准则
 ---
 
-# Rules
+# 准则
 
 The following are community rules which users must abide by when playing Quaver. Failure to do so may result in a mute or a ban in severe cases.
 
