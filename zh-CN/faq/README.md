@@ -121,7 +121,7 @@ DeviceBufferLengthMultiplier = 4
 
 ## 错误排查
 
-### 我打不开游戏
+### 无法打开游戏
 
 Quaver依赖Steam运行，所以请确保Steam当前正在运行。
 
@@ -133,7 +133,7 @@ Quaver依赖Steam运行，所以请确保Steam当前正在运行。
 ~/.steam/bin/steam-runtime/run.sh Quaver/bin/Release/netcoreapp2.1/linux-x64/publish/Quaver
 ```
 
-Running a regular, non-stand-alone build (e.g. from `dotnet build -p Quaver -c Debug`) requires the correct library path. This can be done using the Steam runtime launch script and Quaver’s own launch script:
+正常、非独立的构建（如用`dotnet build -p Quaver -c Debug`构建的版本）需要正确的库路径才能运行。这可以用Steam运行时启动脚本和Quaver自身的启动脚本完成：
 
 ```shell
 ~/.steam/bin/steam-runtime/run.sh Quaver/bin/Debug/netcoreapp2.1/quaver.sh
@@ -141,29 +141,29 @@ Running a regular, non-stand-alone build (e.g. from `dotnet build -p Quaver -c D
 
 #### Windows 7
 
-To run .NET Core on Windows 7, you need some extra dependencies.
+您需要一些额外的依赖库才能在Windows 7上运行.NET Core。
 
-Follow the “Install the following” steps on [this](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31&pivots=os-windows#additional-deps) website.
+在[这个](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31&pivots=os-windows#additional-deps)站点下按照“Install the following”下的步骤操作即可。
 
-### I'm getting "Content File Locked" while trying to download Quaver on Steam
+### 在尝试下载Quaver时提示“内容文件锁定”
 
-This seems to be an issue related to Steam.
+这可能是与Steam有关的问题。
 
-A few things that might help fix this problem can be, running Steam as administrator, restarting your computer, and verifying the integrity of Quaver's game files.
+一些可能能修复此问题的方案是：以管理员身份运行Steam；重启电脑；验证Quaver文件完整性。
 
-If none of these work for you, you might find the answer in one of these forum threads:
+如果以上方案都没有解决问题，那么在以下几个帖子里可能会有答案：
 
-- [Thread One (SteamCommunity)](https://steamcommunity.com/app/346110/discussions/0/333656722964822410/)
-- [Thread Two (Reddit)](https://www.reddit.com/r/Steam/comments/5cnjzf/content_file_locked/)
+- [帖子1（Steam社区）](https://steamcommunity.com/app/346110/discussions/0/333656722964822410/)
+- [帖子2（Reddit）](https://www.reddit.com/r/Steam/comments/5cnjzf/content_file_locked/)
 
-### The game launched with a resolution bigger than my monitor's, thus making it unplayable
+### Quaver启动时分辨率大于我显示器的分辨率导致玩不了
 
-If your game launched with this issue, close Quaver and navigate to the game's steam local files.
+如果您的游戏出现了这个问题，请先关闭Quaver，然后找到Quaver的Steam本地文件路径。
 
-Open the `quaver.cfg` file and look for the configuration options `WindowHeight`, `WindowWidth`, and `WindowFullScreen`. Proceed to set your desired window resolution. The next step is optional, it'd be a good idea to set `WindowFullScreen` to False until you start the client back up to avoid further problems.
+打开`quaver.cfg`然后找到`WindowHeight`（窗口高度）、`WindowWidth`（窗口宽度）及`WindowFullScreen`（全屏）配置选项，然后设置成你希望的分辨率。为了避免额外的问题，请在Quaver再次启动之前请先将`WindowFullScreen` 设置成False。
 
-### My antivirus detected Quaver as malicious software
+### 我的杀毒软件把Quaver当成恶意的
 
-This is due to the fact that the game files are not digitally signed for their authenticity as this requires purchasing and maintaining costs for a Digital Certificate.
+这是电子证书需要购买以及维护成本，游戏文件没有电子签名导致的。
 
-To avoid Quaver being picked up by your antivirus, add `Quaver.exe` or the local files directory to your antivirus's whitelist.
+为避免Quaver被误认，请将`Quaver.exe`或其所在的文件夹加入您的杀毒软件的白名单。
