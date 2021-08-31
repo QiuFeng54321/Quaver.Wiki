@@ -4,7 +4,7 @@ name: Ranking
 
 # Ranking
 
-In this section, you can find everything related to ranking mapsets including the criteria and the process of getting a mapset ranked.
+这里是谱面Ranking相关的说明（标准及流程）。
 
-* [Ranking Criteria](/docs/Ranking/Criteria)
-* [Ranking Process](/docs/Ranking/Process)
+* [Ranking标准](/docs/Ranking/Criteria)
+* [Ranking流程](/docs/Ranking/Process)
