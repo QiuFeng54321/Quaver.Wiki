@@ -1,35 +1,35 @@
 ---
-name: 准则
+name： 准则
 ---
 
 # 准则
 
-The following are community rules which users must abide by when playing Quaver. Failure to do so may result in a mute or a ban in severe cases.
+以下是用户在玩Quaver时必须遵守的社区规则。如果不这样做，可能会导致禁言。在严重的情况下可能会导致封禁。
 
-## General Rules
+## 一般规则
 
-These rules apply to Quaver as a whole and what is/isn't acceptable.
+这些规则适用于整个Quaver，讲述什么能/不能被接受。
 
-1. **Creating multiple accounts is strictly prohibited** - In order to keep a fair ranking environment, users must not create new Steam accounts to access Quaver and must play on the first account they've created.
-2. **Account sharing is not allowed under any circumstances** - The only person that should play on your account is you.
-3. **Don't cheat** - Using third-party tools, editing the game client, or exploiting bugs that aren't intended to be in the game is considered cheating. This is a very strict rule and you will be permanently banned without a chance to return.
-4. **You must use the official Steam release client when connecting to the game server** - Any editing of the game client for the purpose of logging into our game server is strictly forbidden and you will be permanently banned for doing so. The open source version of the game client is intended to provide developers with a way to contribute to the game in a way that does not affect player integrity. Therefore it is prohibited to use it to connect.
-5. **Use an appropriate username** - Don't use a username that is offensive or with the intent of impersonating someone.
-6. **Use an appropriate Steam avatar** - Your avatar in-game is the same as your Steam avatar. Use one that isn't considered NSFW.
+1. **严禁创建多个账户** - 为了保持公平的排名环境，用户不得创建新的Steam账户来访问Quaver，而必须使用他们创建的第一个账户进行游戏。
+2. **任何情况下都不允许共享账户** - 唯一应该在您的账户上玩的人是您自己。
+3. **不要作弊** - 使用第三方工具，编辑游戏客户端，或利用游戏中无意出现的bug都被视为作弊。这是一个非常严格的规则，您将被永久封禁且没有机会解封。
+4. **在连接游戏服务器时，您必须使用官方的Steam发布的客户端** - 任何为了登录我们的游戏服务器而编辑游戏客户端的行为都是严格禁止的，您将会因此被永久封禁。开源版的游戏客户端旨在为开发者提供一种不影响玩家完整性的方式来为游戏做出贡献。因此，禁止使用它进行连接。
+5. **使用合适的用户名** - 不要使用具有攻击性或意图冒充他人的用户名。
+6. **使用合适的Steam头像** - 你在游戏中的头像和你的Steam头像是一样的。请使用一个不被认为是NSFW（工作不宜）的头像。
 
-## In-game Chat Rules
+## 游戏内聊天规则
 
-The following rules apply when using our in-game chat to communicate with others.
+以下规则适用于使用我们的游戏内聊天与他人交流。
 
-1. **Respect Everybody.** - We do not tolerate any condescending remarks, or comments with the intent to humiliate others. Sarcastic remarks are not welcomed here. Please avoid bashing an individual or a whole community. Harassing other users isn't acceptable whatsoever.
-2. **Keep it PG-13** - No NSFW/NSFL, gore, pornography, or erotic roleplaying. Nobody wants to see this stuff here. Breaking this rule could result in a ban or mute depending on the severity.
-3. **Keep channel discussion relevant** - In-game chat channels are created with topics in mind. Don't gear away from them.
-4. **Keep criticism constructive.** - Feedback is welcome as long as it is constructive. Every decision in development, mapping, art, and design has a reason behind it. We would like everybody to respect that. We're not here to demoralize others.
-5. **No advertising, politics, religion, ear rape, spam, raiding, or any unwanted content** - Adverising includes any third-party games, websites, or chat servers. Keep it civil and clean. This is pretty self-explanatory.
+1. **尊重所有人。** - 我们不容忍任何居高临下的言论，或意在羞辱他人的言论。这里不欢迎讽刺性的言论。请避免抨击某个人或整个社区。骚扰其他用户是绝对不允许的。
+2. **保持PG-13** - 没有NSFW/NSFL（工作/生活不宜）、血腥、色情或色情的角色扮演。没有人想在这里看到这些东西。违反这一规则可能会导致禁言或封禁，这取决于其严重程度。
+3. **保持频道讨论的相关性** - 游戏中的聊天频道是以主题为基础建立的。不要远离它们。
+4. **保持建设性的批评** - 只要是建设性的，我们就欢迎反馈。在开发、绘图、艺术和设计方面的每个决定都有其背后的原因。我们希望每个人都能尊重这一点。我们在这里不是为了打击别人的。
+5. **不要发布广告，政治，宗教，吵耳朵，垃圾邮件，突袭，或任何不需要的内容** - 广告包括任何第三方游戏，网站，或聊天服务器。保持文明和清洁。这一点是不言自明的。
 
-## Mapset Submission Rules
+## 谱集提交规则
 
-The following rules apply when uploading mapset content to our servers.
+在向我们的服务器上传谱集内容时，适用以下规则。
 
-1. **You must own all the rights or have the right to use ANY content you upload** - This includes but is not limited to: audio and image files, maps, or anything you haven't created yourself. In short - if you're unsure if you're able to use a particular song or graphic, ask the creator. Otherwise do not upload it.
-2. **Plagiarism/copying/stealing maps is not acceptable** - If a map is not your creation (regardless of where or who it came from), do not upload it. Ask the original creator of the map for permission before doing so.
+1. **1.您必须拥有所有权利或有权使用您上传的任何内容** - 这包括但不限于：音频和图像文件，谱面，或任何您不是自己创建的内容。简而言之--如果你不确定你是否能够使用某首歌曲或图片，请询问创作者。否则，请不要上传。
+2. **剽窃/抄袭/窃取谱面是不可接受的** - 如果一张谱面不是你创造的（不管它来自哪里或谁），请不要上传它。在这样做之前，请向谱面的原创作者征求许可。
