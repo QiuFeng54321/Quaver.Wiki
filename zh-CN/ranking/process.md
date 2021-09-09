@@ -3,90 +3,90 @@ name: Ranking流程
 ---
 
 
-# Quaver Ranking Process
+# Quaver Ranking流程
 
-This document outlines the process of getting a mapset ranked starting from uploading the set to getting it reviewed by our Ranking Supervisors.
+此页面概述了从上传谱集到得到我们的Ranking审核的过程。
 
-If you're looking for the criteria a mapset needs to follow in order to get ranked, see: [Quaver Ranking Criteria](/docs/Ranking/Criteria).
+如果你想了解谱集获得Ranking需要遵循的标准，请参见[Quaver Ranking标准](/docs/Ranking/Criteria)。
 
-## Preface
+## 前言
 
-Our goal with this ranking process is to provide an easy and streamlined approach to getting mapsets ranked. During this process, your maps will be reviewed for coherence with our [Ranking Criteria](/docs/Ranking/Criteria). Before submitting your set for rank, make sure it is following the criteria, as there are cooldown periods in place if your set is denied.
+我们对这个Ranking过程的目标是提供一个简单而精简的方法来将谱集Rank。在这个过程中，我们将审查您的谱面是否符合我们的[Ranking标准](/docs/Ranking/Criteria)。在提交排名之前，请确保它符合标准，因为如果您的谱面集被拒绝，会有冷却期。
 
-If your mapset is denied for rank, it will be placed on a **14 day cooldown period** before you can submit it again.
+如果您的谱集被拒绝Ranking，它将被置于**14天的冷却期**，然后您才能再次提交。
 
-## Ranked Status Terminology
+## Ranking状态术语
 
-There are multiple states that a map could possibly be in related to its process in getting it ranked. They are the following:
+一张谱面有可能处于多种状态，这与它获得Ranking的过程有关。它们会是以下几种。
 
-### Unranked
+### Unranked（未排名）
 
-When you first upload a mapset, all of your maps will be placed in a state of Unranked. While in this state, your maps will not be eligible to compete for scores on global rankings, but they are still downloadable by the community.
+当您第一次上传谱集时，您的所有谱面都会被置于Unranked状态。在这种状态下，您的谱面将没有资格参与全球排名的分数竞争，但它们仍然可以被社区下载。
 
-### Pending
+### Pending（待定）
 
-When you submit a mapset for ranking, it will be sent to a queue where our Ranking Supervisors will be able to review the set to make sure it aligns with our Ranking Criteria.
+当您提交谱集进行Ranking时，它将被移到一个队列中，我们的Ranking审核员将能够审查该地图集，以确保它符合我们的Ranking标准。
 
-### Denied
+### Denied（拒绝）
 
-If you've submitted your mapset, and it isn't eligible to be ranked, it will be placed in a state of Denied. If your set was denied, you will receive comments on it from our Ranking Supervisors about what needs to be changed. While your set is in this state, you will not be able to resubmit it for Pending status for another 14 days
+如果您已经提交了您的谱面集，但它没有资格被Rank，那么它将被置于拒绝状态。如果您的谱面集被拒绝了，您将会收到我们的Ranking审核员对它的评论，告诉您需要修改的地方。当你的作品处于这种状态时，你将无法在14天内重新提交使其处于待定状态。
 
-### Blacklisted
+### Blacklisted（黑名单）
 
-Mapsets that are blacklisted are ones that will never be eligible for rank. Sets can get blacklisted if the creator shows no sign of improving their set after multiple denials or their mapset was never in an approaching rankable state to begin with.
+被列入黑名单的谱集将永远没有资格获得排名。如果创建者在多次被拒绝后没有改善他们的谱集的迹象，或者他们的谱集从一开始就没有处于接近可Rank的状态，就会被列入黑名单。
 
-### Ranked
+### Ranked（已排名）
 
-If your mapset is deemed to be following our criteria, it will be placed in a state of Ranked. In this state, your maps will be eligible to be competed on in global rankings. While in this state, a map cannot be updated or deleted willingly by the creator.
+如果您的谱面集被认为符合我们的标准，那么它将被置于Ranked状态。在这种状态下，您的谱面将有资格参加全球排名的竞争。在这种状态下，谱面的创建者不能随意更新或删除谱面。
 
-## The Process
+## 过程
 
-This section outlines the process of getting a mapset ranked from A-Z starting with uploading the mapset itself.
+本节从头开始，概述了从上传谱集本身到获得谱集排名的过程。
 
-### 1. Uploading The Mapset
+### 1. 上传谱集
 
-The first step in getting a mapset ranked is uploading it. You can do this within the map editor by going to `File -> Upload`.
+让谱集获得Rank的第一步是上传它。你可以在谱面编辑器中通过 "File -> Upload"来完成。
 
-### 2. Getting Feedback
+### 2. 获得反馈
 
-After uploading your set, it's important to receive feedback on your set before submitting it for rank. This is where the community comes in. While we do not currently have a system in place for getting structured feedback from other players, it is important to have an extra set of eyes take a look at your set to make sure it is following the Ranking Criteria. We'll be looking at making this step in the process more streamlined in the future.
+上传谱面集后，在提交Rank前收到反馈是很重要的。这就是社区的作用。虽然我们目前还没有一个系统可以从其他玩家那里得到结构化的反馈，但有别人来看看你的作品，以确保它符合Ranking标准，这一点很重要。我们将着眼于使这一步骤在未来的过程中更加精简。
 
-### 3. Submitting For Rank
+### 3. 提交Ranking
 
-Players are eligible to submit their own mapsets for ranked status when they feel it is ready. You can submit a set for ranked status by heading over to its page on the website while logged in and clicking the "Submit For Rank" button. This will send the mapset to a queue where our Ranking Supervisors will review it.
+当玩家认为自己的谱集已经准备好时，他们有资格提交自己的地图集以获得Ranking状态。你可以在登录后进入网站的页面，点击 "Submit for Rank"按钮，将地图集提交为排名状态。这将把地图集发送到一个队列中，我们的Ranking审核员将对其进行审查。
 
-### 4. Ranking Supervisor Reviewal
+### 4. Ranking监督员审查
 
-After submitting your set for rank, it will be placed in a queue for the Ranking Supervisor team to review.
+在提交您的谱集进行Ranking后，它将被放在一个队列中，供Ranking审核团队审查。
 
-In order to get your set ranked, **you will need to get 2 votes from the Ranking Supervisors** that dictates if the set is eligible for rank.
+为了使你的作品获得Ranking，**你需要从Ranking审核员那里获得2张投票**，决定该作品是否有资格获得Ranking。
 
-During this vote, **a Supervisor has the ability to veto a mapset from being ranked before it reaches 2 vote and are able place it in a denied state** if there are any issues with the set.
+在这个投票过程中，**审核员有能力在谱集达到2票之前否决它的Ranking，如果该谱集有任何问题，他们可以将其置于拒绝状态**。
 
-You can check the status of the vote for your set by going to its respective mapset page. Here will be displayed the amount of votes it has as well as the Supervisors who are nominating it for rank.
+您可以进入您的谱集的页面，查看其投票情况。这里将显示它的票数以及投票的审核员。
 
-Once your mapset receives 2 positive votes, it will automatically be placed in a ranked state.
+一旦您的谱集获得2张赞成票，它将自动进入Ranked状态。
 
-Each mapset is reviewed by our Supervisors in the order that they are submitted to the ranking queue. The sets that contain the highest amount of Supervisor votes at a given time are given priority.
+每张谱集都会按照提交到Ranking队列的顺序由我们的审核员进行审查。在给定时间内，包含最高数量的审核员投票的谱集将被优先考虑。
 
-Supervisors are also not allowed to vote for their own mapsets. They must go through the same process as all other users and wait for their respective turn in the ranking queue.
+审核员也不允许为自己的谱集投票。他们必须与所有其他用户经历同样的过程，并在排名队列中等待各自的轮空。
 
-### 5a. Mapset Denied
+### 5a. 谱集被拒绝 (Denied)
 
-If your mapset is denied, you will receive a comment from one or more Ranking Supervisors with the reason(s) why. After this period, you are eligible to update your map with fixes to submit again for rank. **Keep in mind that if denied, your set will be placed in a cooldown period for 14 days until you are able to submit it again.**
+如果您的谱集被拒绝，您会收到一个或多个Ranking审核员的评论，并说明原因。在此之后，您有资格更新您的谱面并进行修复，以再次提交Ranking。**请记住，如果被拒绝，您的谱面将被置于14天的冷却期，直到您能够再次提交。**
 
-### 5b. Mapset On-Hold
+### 5b. On-Hold的谱集
 
-If your mapset is put on-hold, it means that minor issues were found that prevent it from being ranked. The most common issues are improper metadata or overlapping notes. During this state, any existing supervisor votes will be reset back to zero, and your set cannot be voted for until all issues are resolved. You will need to update your mapset in order for it to go to a status of "Resolved."
+如果您的谱集被搁置，这意味着发现了一些小问题，使其无法被Rank。最常见的问题是不当的元数据或重叠的note。在这种状态下，任何已有的审核员票数都会被重置为零，在所有问题解决之前，您的谱集不能被投票支持。你需要更新你的谱集，以使其进入 "Resolved（已解决）"的状态。
 
-### 5c. Mapset Resolved
+### 5c. 谱集Resolved（已解决）
 
-If the status of your mapset is on-hold, it has to be updated for it to automatically be marked as resolved. While in this state, the supervisors can review and vote for it again. 
+如果您的谱集的状态是On-Hold，它必须被更新，才能自动被标记为已解决。在这种状态下，审核员可以再次对其进行审查和投票。
 
-### 5d. Mapset Blacklisted
+### 5d. Blacklisted的（被列入黑名单）谱集
 
-Serious mapsets will rarely be blacklisted. If your set does reach this state, it means that it was deemed to be in a state where you aren't showing signs of improving the set after repeated denials or if it was never in an approaching rankable state to begin with.
+认真制作的谱集很少会被列入黑名单。如果你的谱集确实变成了这种状态，这意味着它被认为在多次被拒绝后没有表现出改善谱集的迹象，或者它一开始就没有处于接近可Rank的状态。
 
-### 5e. Mapset Ranked
+### 5e. 谱集Ranked
 
-After this stage, you don't need to do anything else! Your mapset is now ranked and is eligible to play in global rankings.
+在这个阶段之后，你就不需要再做任何事情了! 您的谱集现在已经获得了Ranking状态，并有资格参加全球排名。
