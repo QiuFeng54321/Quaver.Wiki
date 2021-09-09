@@ -3,116 +3,116 @@ name: Ranking标准
 ---
 
 
-# Quaver Ranking Criteria
+# Quaver Ranking标准
 
-In order to get a mapset ranked, it must follow the criteria listed below. In the event that it does not, you may be asked to modify your mapset and resubmit it again for rank.
+为了使谱集被Rank，它必须遵循下面列出的标准。如果不符合，您可能会被要求修改您的谱集并重新提交为Rank。
 
-If you're looking for the process of getting a mapset ranked, see: [Quaver Ranking Process](/docs/Ranking/Process).
+如果您想了解谱集的Ranking过程，请参阅[Quaver Ranking过程](/docs/Ranking/Process)。
 
-## Mandatory
+## 强制性
 
-**You must follow all the requirements listed in this section. Failing to meet all the requirements will not allow your map to receive ranked status.**
+**你必须遵守本节中列出的所有要求。如果不能满足所有的要求，您的谱面将无法获得Ranking状态。**
 
-### Metadata
+### 元数据
 
-The following pertains to metadata that your maps contain such as song artists, titles, and tags.
+以下内容涉及到您的谱面所包含的元数据，如歌曲艺术家、标题和标签。
 
-* **The artist and title must be absolutely correct.**
-* **The artist and title must be romanized.** However, non-romanized characters are allowed to be used in source and tags.
-* **The artist, title and source must not repeat in tags.** However, romanizing or translating the source in tags is encouraged, in case it's relevant.
-* **Tags must contain the genre of the song.**
-* **Every difficulty must have a difficulty name.**
+* **作者和标题必须是绝对正确的.**
+* **作者和标题必须是罗马化的。**但是，非罗马化的字符允许在源和标签中使用。
+* **作者、标题和来源不得在标签中重复。**然而，鼓励在标签中罗马化或翻译来源，以防相关。
+* **标签必须包含歌曲的类型。**
+* **每个难度都必须有一个难度名称。**
 
-### Media
+### 媒体
 
-The following pertains to media files such as background images and audio files that are contained in your mapset.
+以下内容涉及到媒体文件，如背景图片和音频文件，这些文件包含在你的谱集中。
 
-* **The resolution of background images must be at least 1280x720** and of exceptionally high quality. The file size of a background image must not exceed 4 MB.
-* **The mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
-* **MP3 is the only allowed audio file format.**
-* **The maximum bitrate allowed for audio files is 192kbps.**
-* **The total file size must not exceed 50 MB.**
+* **背景图片的分辨率必须至少为1280x720**，而且质量要特别高。背景图片的文件大小不得超过4MB。
+* **谱集必须只包含一个音频文件。**多个歌曲文件的谱集没有资格获得Ranking。
+* **MP3是唯一允许的音频文件格式**。
+* **音频文件允许的最大比特率为192kbps。**
+* **文件总大小不得超过50MB.**。
 
-### Maps
+### 谱面
 
-The following requirements are for the individual maps themselves.
+以下是对单个谱面本身的要求。
 
-* **Autoplay must be able to achieve a 100% (X-Grade) score.**
-* **The maps must not have overlapping notes.**
-* **All long note releases must have at least 36 milliseconds of space after them.** The value is derived from 2x of the Standard "Marvelous" timing window.
-* **The maps cannot have more than 30 seconds of consecutive break time.**
-* **More than 75% of the length of the song must have notes to play.**
-* **At least one note must be placed in every column.**
-* **The maps must be at least 45 seconds long.**
-* **The maps must be timed as accurately as possible.** Timing points must not be used in place of scroll velocity changes.
-* **The maps must have a song select preview point that sufficently compliments the song.** It's usually placed before the chorus or at the beginning of a section. A solid preview point attracts more players to try the map.
+* **自动播放必须能够达到100%（X级）的分数。**
+* **谱面不能有重叠的音符**。
+* **所有的长音符释放后必须有至少36毫秒的空间。**该值来自标准 "Marvelous" 判定窗口的两倍。
+* **谱面不能有超过30秒的连续中断时间**。
+* **超过75%的歌曲长度必须有音符。**
+* **在每一列中必须至少有一个音符。**
+* **谱面必须至少有45秒的长度**。
+* **谱面必须尽可能准确地计时。**计时点不得用于代替滚动速度变化。
+* **谱面必须有一个充分衬托歌曲的选曲预览点。**它通常放在合唱前或一个部分的开头。一个坚实的预览点会吸引更多的玩家来尝试这张谱面。
 
-### Difficulty Spread
+### 难度分布
 
-The following pertains to the spread of difficulty each mapset must follow.
+以下是关于每个谱集必须遵循的难度分布。
 
-##### Difficulty Names & Description
+##### 难度名称和描述
 
-The standard names for difficulties in a mapset are Beginner, Easy, Normal, Hard, Insane, and Expert.
-Should you choose not to use the standard names, the difficulty names in your set must show clear sign of progression in difficulty consistent with that of the mapset and should be easy to interpret.
+谱集中难度的标准名称是Beginner（初级）、Easy（简单）、Normal（普通）、Hard（困难）、Insane（疯狂）和Expert（专家）。
+如果您选择不使用标准名称，您的谱集中的难度名称必须显示出与谱集一致的难度递增的明显迹象，并应易于解释。
 
-The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel.
+下面的描述是每个难度的典型外观。请记住，这并不具体，而且在个别情况下还有主观的空间。它只是为每张谱面的外观和感觉提供一个总体展望。
 
 * **Beginner**
-     * For players who are being exposed to rhythm games for the first time.
-     * Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
-     * Jumps are suitable for this difficulty when emphasizing important sounds in the music.
-     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
+     * 面向第一次接触节奏游戏的玩家。
+     * 在大多数情况下，音符（note）应该是每隔一拍，每拍一次放置，以描绘出音乐的重点。
+     * 当强调音乐中的重要声音时，双押适合于这个难度。
+     * 在这个难度下，除了滚动速度的正常化，不能使用滚动速度的变化来达到其他目的。
 
 * **Easy**
-     * This difficulty can be thought of as an "upgraded Beginner."
-     * Players at this level will be able to play at slightly higher speeds and execute more complicated patterns.
-     * One beat streams and 1/2 bursts are generally comfortable to these players.
-     * Jumps can be used more freely but sparingly, as players at this level may still have trouble with them.
-     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
+     * 这个难度可以被认为是 “升级版的初学者”。
+     * 在这个级别的玩家将能够以稍高的速度游玩，并能玩更复杂的模式（pattern）。
+     * 一拍散点和1/2的爆发对这些玩家来说一般是很舒服的。
+     * 双押可以更自由地使用，但要少用，因为这个水平的玩家可能仍有困难。
+     * 在这个难度下，除了滚动速度的正常化外，滚动速度的变化不得用于任何其他目的。
 
 * **Normal**
-     * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner.
-     * 1/2 rhythms with more complicated note placements and jumps are suitable for this difficulty.
+     * 这个级别的谱面通常应该开始进入（细分）一些模式，与简单和初级相比，这些模式不会对歌曲产生很大的影响。
+     * 有更复杂的音符放置位置与双押的1/2节奏适用于这个难度。
 
 * **Hard**
-     * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
-     * Maps at this difficulty can branch into light 1/4th streams with jumps interspersed in them depending on the BPM of the song.
-     * Usage of more long notes are suited for this difficulty, as players will typically be learning to play them in more frequent circumstances.
+     * 在这个级别，你作为做谱者的创造力能够大放异彩，因为它的限制比前几个难度少得多。
+     * 这个难度的谱面可以分为1/4轻切，根据歌曲的BPM，在其中穿插双押。
+     * 更多长条的使用适合这个难度，因为玩家通常会在更频繁的情况下学习游玩它们。
 
 * **Insane**
-     * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to:
-          * Light Jacks
-          * Complex Long Note Usage
-          * Light Jumpstreams
-     * Denser patterns are suitable for this level if they are straightforward, and not difficult to execute - such as jumptrills.
+     * 这个级别的玩家能够处理各种低密度的模式，包括但不限于：
+          * 子弹（Light Jacks）
+          * 复杂的长条
+          * 轻切 （Light Jumpstreams）
+     * 如果密度较高的模式是直接的，并且玩起来不难的话，就适合这个级别的演奏者--比如说对拍（Jumptrill）。
 
 * **Expert**
-     * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative.
+     * 从这开始，谱面没有任何难度限制。请自由发挥您的创意。
 
-##### Difficulty Spread Rules
+##### 难度分布规则
 
-| Length        | Minimum Required Maps |
+| 长度 | 最低要求的难度数量 |
 | ------------- | :-------------------: |
-| **0:45-2:29** |           2           |
-| **2:30+**     |           1           |
+| **0:45-2:29** | 2 |
+| **2:30+** | 1 |
 
-##### Skipping Difficulties
+##### 跳过难度
 
-You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
+长度在0:45-2:29之间的**谱集**的难度与难度之间不能有跳跃/例如，如果您要制作一个1分钟的包含一个Insane难度的谱集，您需要再创建一个Hard或Expert难度。只有一个Beginner和一个Insane是不允许的。**这条规则不适用于歌曲长度为2:30或更长的谱集。**
 
-##### Multi-Game Mode Sets
+##### 多游戏模式的谱集
 
-Furthermore, **each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
+此外，**每个游戏模式都是分开处理的。**如果你为4键和7键创建一个谱集，你必须为这两个游戏模式分别制定一个难度分布。
 
-**If you have two game modes, each difficulty must contain either "4K" or "7K"** (Example: "7K Insane").
+**如果你有两个游戏模式，每个难度名称必须包含“4K”或“7K”**（例如：“7K Insane”。）
 
-## Guidelines
+## 准则
 
-The following are guidelines to consider when creating your mapset and submitting it for ranked status. **These are not mandatory and should be taken with a grain of salt.** Our intentions with this are to allow mappers to be creative with the types of maps they produce. As such, these guidelines are merely a way to increase your chances of getting your mapset ranked - although exceptions can be made.
+以下是创建谱集并提交排名状态时需要考虑的准则。**这些不是强制性的，应该谨慎对待。**我们这样做的目的是为了让制谱者对他们制作的谱面类型有创造性。因此，这些准则只是为了增加你的谱集被rank的机会--尽管可以有例外。
 
-* **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
-* **Your map should generally make use of layering.** - Mapping to different instruments in the song will make your map reflect the music more.
-* **Breaks should only be used when absolutely necessary** - A song will generally not have any silent moments throughout it. Breaks should be used sparingly - especially long ones.
-* **Scroll Velocity changes should reflect the music** - Try to avoid changing SV when the must doesn't call for it. This will generally make your map more difficult to read and harder to enjoy.
-* **The patterns you use should be consistent and follow the music** - Try to avoid using bursts where they aren't appropriate, such as before a dense stream section. Furthermore, try to avoid technical or intense patterns in places that do not call for them.
+* **谱面的强度一般应与音乐同步。**如果一首歌相对温和，谱面应反映出这一点，反之亦然。
+* **你的谱面一般应利用分层。**与歌曲中的不同乐器进行映射，会使你的谱面更多地反映音乐。
+* **休息段应该只在绝对必要时使用。**一首歌曲一般不会有任何沉默的时刻贯穿其中。休息时间应该少用--特别是长的休息时间。
+* **滚动速度的变化应该反映音乐。**尽量避免在没有必要的情况下改变SV。这通常会使你的谱面更难读，更难享受。
+* **你使用的模式应该是稳定的，并跟随音乐。**尽量避免在不合适的地方使用爆发，比如在密集的切之前。此外，尽量避免在不需要的地方使用Tech或激烈的模式。
